@@ -7,6 +7,10 @@ description: |
   a project through the .gitattributes file already found in many software
   projects.
 keywords: "git, editorconfig, editor, config, ascribe, vim, files, attributes, gitattributes"
+id: "e3afa148-b12d-4c67-847b-ac171d69dcc7"
+export: true
+published: 2019-05-18
+show-dates: false
 ---
 
 Ascribe is a standard for software development tools (specifically editors) to

@@ -135,13 +135,15 @@
       (and title (format "%s | %s" title site-name))
       site-name))
 
-(defn build-cover [{:keys [title subtitle published updated]}]
+(defn build-cover
+  [{:keys [title subtitle published updated show-dates]
+    :or   {show-dates true}}]
   (when title
     (hiccup/html
      [:div {:class "cover"}
       [:h1 title]
       (when subtitle [:h2 subtitle])
-      (when published
+      (when (and published show-dates)
         (let [format-date #(.format (date-formatter "yyyy-MM-dd") %)]
           [:time {:class "date", :datetime (format-date published)}
            (str (format-date published)
