@@ -31,11 +31,11 @@
 
 /* https://rsms.me/inter/download/ */
 :root {
-	font-family: Inter, 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Inter', 'Helvetica', 'Arial', 'Verdana', sans-serif;
 	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 @supports (font-variation-settings: normal) {
-	:root { font-family: InterVariable, 'Helvetica', 'Arial', sans-serif; }
+	:root { font-family: 'InterVariable', 'Inter', 'Helvetica', 'Arial', 'Verdana', sans-serif; }
 }
 
 html {
