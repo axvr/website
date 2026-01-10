@@ -195,6 +195,8 @@
       (update :html.content #(hiccup/html %))
       build-page))
 
+;; TODO: `.mmd` and `.d2` file compilation?
+
 (defmulti write-file! (comp fs/extension :output-file))
 
 (defmethod write-file! :default

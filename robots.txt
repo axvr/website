@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /about/
 Disallow: /contact/
 Disallow: /projects/teg/
 

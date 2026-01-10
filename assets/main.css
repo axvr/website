@@ -80,6 +80,12 @@ svg.icon {
 	overflow: visible;
 }
 
+/* 88x31 badges/buttons. */
+.badge {
+  display: inline;
+	image-rendering: pixelated;
+}
+
 .date {
 	margin-bottom: -3px;
 	margin-top: 5px;

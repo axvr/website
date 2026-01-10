@@ -13,6 +13,16 @@ topics:
 - the history of computers and computer science; and
 - generally having fun with computation.
 
+## Favourites
+
+- [Library](https://www.zotero.org/groups/6365078/library_of_axvr/library): Recommended reading and watching.
+- [Ascribe](/projects/ascribe): A simpler alternative to EditorConfig.
+
+## Find/contact me
+
+- Email: insert an `@` between my first and surname, then append `.uk`.
+- Code: [Codeberg](https://codeberg.org/axvr), [GitHub](https://github.com/axvr).
+
 * * *
 
 All content on this website was produced by a real human.
