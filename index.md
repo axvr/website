@@ -15,13 +15,13 @@ topics:
 
 ## Favourites
 
-- [Library](https://www.zotero.org/groups/6365078/library_of_axvr/library): Recommended reading and watching.
-- [Ascribe](/projects/ascribe): A simpler alternative to EditorConfig.
+- [**Library**](https://www.zotero.org/groups/6365078/library_of_axvr/library): Recommended reading and watching.
+- [**Ascribe**](/projects/ascribe): A simpler alternative to EditorConfig.
 
-## Find/contact me
+## Find me @
 
-- Email: insert an `@` between my first and surname, then append `.uk`.
-- Code: [Codeberg](https://codeberg.org/axvr), [GitHub](https://github.com/axvr).
+- **Email**: insert an "@" between my first and surname, then append `.uk`.
+- **Code**: [Codeberg](https://codeberg.org/axvr), [GitHub](https://github.com/axvr).
 
 * * *
 

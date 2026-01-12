@@ -242,6 +242,7 @@
  {:site-name   "Alex Vear"
   :site-url    "https://www.alexvear.com"
   :description "Alex Vear's little corner of the World Wide Web."
+  :author      "Alex Vear"
   :template    (slurp "template.html")
   :input-dir   (fs/file "..")
   :output-dir  (fs/file ".." ".dist")
