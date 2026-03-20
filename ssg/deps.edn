@@ -1,12 +1,13 @@
 {:paths ["."]
- :deps  {org.clojure/data.xml {:mvn/version "0.2.0-alpha9"}
+ :deps  {org.clojure/clojure {:mvn/version "1.12.4"}
+         org.clojure/data.xml {:mvn/version "0.2.0-alpha10"}
          hiccup/hiccup {:mvn/version "2.0.0"}
-         babashka/fs {:mvn/version "0.5.26"}
+         babashka/fs {:mvn/version "0.5.32"}
          clj-commons/clj-yaml {:mvn/version "1.0.29"}
-         org.commonmark/commonmark                       {:mvn/version "0.25.0"}
-         org.commonmark/commonmark-ext-gfm-tables        {:mvn/version "0.25.0"}
-         org.commonmark/commonmark-ext-gfm-strikethrough {:mvn/version "0.25.0"}
-         org.commonmark/commonmark-ext-footnotes         {:mvn/version "0.25.0"}
-         org.commonmark/commonmark-ext-heading-anchor    {:mvn/version "0.25.0"}
-         org.commonmark/commonmark-ext-yaml-front-matter {:mvn/version "0.25.0"}
-         org.commonmark/commonmark-ext-task-list-items   {:mvn/version "0.25.0"}}}
+         org.commonmark/commonmark                       {:mvn/version "0.27.1"}
+         org.commonmark/commonmark-ext-gfm-tables        {:mvn/version "0.27.1"}
+         org.commonmark/commonmark-ext-gfm-strikethrough {:mvn/version "0.27.1"}
+         org.commonmark/commonmark-ext-footnotes         {:mvn/version "0.27.1"}
+         org.commonmark/commonmark-ext-heading-anchor    {:mvn/version "0.27.1"}
+         org.commonmark/commonmark-ext-yaml-front-matter {:mvn/version "0.27.1"}
+         org.commonmark/commonmark-ext-task-list-items   {:mvn/version "0.27.1"}}}
