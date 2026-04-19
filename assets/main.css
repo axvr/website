@@ -31,11 +31,11 @@
 
 /* https://rsms.me/inter/download/ */
 :root {
-	font-family: 'Inter', 'Helvetica', 'Arial', 'Verdana', sans-serif;
+	font-family: 'Inter', 'Helvetica', 'Arial', 'Verdana', ui-sans-serif, sans-serif;
 	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
 }
 @supports (font-variation-settings: normal) {
-	:root { font-family: 'InterVariable', 'Inter', 'Helvetica', 'Arial', 'Verdana', sans-serif; }
+	:root { font-family: 'InterVariable', 'Inter', 'Helvetica', 'Arial', 'Verdana', ui-sans-serif, sans-serif; }
 }
 
 html {
@@ -113,7 +113,7 @@ pre, code {
 	white-space: pre;
 	font-size: 1em;
 	line-height: 1.2em;
-	font-family: 'IBM Plex Mono', 'Inconsolata', monospace;
+	font-family: 'IBM Plex Mono', 'Inconsolata', ui-monospace, monospace;
 	background-color: var(--bg-alt);
 	color: var(--fg-main);
 	border-radius: 3px;
