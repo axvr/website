@@ -12,21 +12,21 @@ description: |
   thesis of the book.
 keywords: "lisp, design, language, paul graham, book, review, programming, macros, functions, closures, advanced"
 og.type: "article"
-export: true
+export: false
 ---
 
 A while back I committed some time to studying [Paul Graham][]'s 1993 book [_On
 Lisp: Advanced Techniques for Common Lisp_][on lisp].  On Lisp is frequently
-recommended within Lisp circles as being the bible for learning macros which
-has contributed to the design of several programming languages (including
-[Clojure][]).  Having read the book I can confirm that this is indeed true,
-however many online reviews and references miss the central thesis of the book.
+recommended within Lisp circles as being the bible for learning macros.  It
+influenced the design of several programming languages (including [Clojure][]).
+Having read the book I can confirm that this is indeed true, however many
+online reviews and references miss the central thesis of the book.
 
 The underlying theme, and explicit subject of the introductory chapter, is
 something Graham calls "[bottom-up programming][botprog]".  We discover that
 this is really a book about _programming language design_, or more
 specifically, it teaches how to morph your language into one that better suits
-the problem domain we are trying to solve.
+the problem domain you are working in.
 
 [on lisp]: https://paulgraham.com/onlisp.html
 [botprog]: https://paulgraham.com/progbot.html
@@ -49,8 +49,8 @@ the problem domain we are trying to solve.
 >
 > &mdash; **Paul Graham**, *On Lisp* &sect; Introduction
 
-"Bottom-up programming" is so key to the book that even the title of the book
-is a sly reference to it:
+"Bottom-up programming" is so foundational to the book that even the title of
+the book is a sly reference to it:
 
 > The title is intended to stress the importance of bottom-up programming in
 > Lisp. Instead of just writing your program in Lisp, you can write your own
@@ -60,13 +60,12 @@ is a sly reference to it:
 
 Despite my reservations in calling it "bottom-up programming", this technique
 of pulling the language up to more effectively match the problem space is
-absolutely fundamental to software design.  Think about how each function you
-define adds a new specialised term to the language.  How about the ways we
-organise our code, the names we choose and libraries we use shape our
-languages?  This is *language design*.  We need to care about and put real
-thought into how we are extending the language.  If we don't, it is all too
-easy to unintentionally make life more difficult for ourselves through
-ever-increasing volumes of code and unintended behaviour.
+absolutely crucial to good software design.  Consider how each function you
+define adds a new specialised term to the language.  How the ways we organise
+our code, the names we choose and libraries we use shape our languages.  This
+is *language design*.  We need to care about and put real thought into how we
+are extending the language in which we express our solutions.  If we don't, it
+is all too easy to unintentionally make life more difficult for ourselves.
 
 In a talk at OOPSLA '98, [Guy Steele, Jr.][] echoes Graham's views on language
 design[^langdes]:
@@ -85,13 +84,12 @@ design[^langdes]:
 >
 > &mdash; **Guy L. Steele, Jr.**, [*Growing a Language*](https://www.youtube.com/watch?v=lw6TaiXzHAE), 1998
 
-Throughout the course of On Lisp, Graham attempts to instil this into the
-reader by demonstrating the implementation of several advanced programming
-concepts atop of Common Lisp, with each successive chapter building more
-advanced features upon the creations of prior ones, creating an increasingly
-abstract language.  This approach to building upon the features created in
-previous chapters helps to reinforce the learning of them while effectively
-showing their real-world utility.
+Throughout On Lisp, Graham tries to instil this into the reader by explaining
+and demonstrating the implementation of several advanced programming concepts
+atop of Common Lisp, with each successive chapter building more advanced
+features upon the creations of prior ones, creating an increasingly abstract
+language.  This approach reinforces the lessons of previous chapters while
+showing how such features can be used.
 
 Some of the advanced programming ideas and techniques the book covers are:
 
@@ -123,16 +121,16 @@ understand it.
 
 On Lisp is one of those rare books that expands your mind to new ways of
 thinking about solving problems and expressing solutions.  I can say with
-confidence that reading it has made me a much better programmer.  Taking me
-from having only created a couple of macros to total macro confidence.  Taught
-me so much about language design and many advanced techniques which I have
-actually used in several real-world situations.
+confidence that reading it has made me a better programmer.  It took me from
+having only created a couple of macros to complete macro confidence.  I gained
+so much invaluable knowledge on language design and many advanced techniques
+which I have actually used in several real-world situations.
 
-A word of warning though: On Lisp is not an easy book.  It will require
-a significant chunk of your time.  If you already know Common Lisp prior to
-reading it, you may find it a bit easier to follow along to but do not let that
-put you off.  There are also known [mistakes][errata] that Graham has kindly
-shared corrections for online.
+A word of warning: On Lisp is not an easy book.  It will consume a significant
+chunk of your time if you want to truly understand all that it has to offer.
+If you do not already know Common Lisp prior to reading it or won't ever use
+it, don't let that put you off.  There are also known [mistakes][errata] that
+Graham has kindly shared corrections for online.
 
 [errata]: http://paulgraham.com/onlisperrata.html
 
@@ -165,8 +163,8 @@ people:
     hosted by MIT.  Graham published his notes on his website as the essay
     "[Five Questions about Language Design](https://paulgraham.com/langdes.html)".
 
-[^cover]: The imperfection on the right edge will be chopped off when the book
-    is cut to size.
+[^cover]: The imperfection on the right edge of the cover will be removed when
+    the book is cut to size.
 
 [Paul Graham]: https://paulgraham.com
 [Guy Steele, Jr.]: https://en.wikipedia.org/wiki/Guy_L._Steele_Jr.
