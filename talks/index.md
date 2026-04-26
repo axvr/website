@@ -6,6 +6,15 @@ description: "List of public talks given by Alex Vear."
 Reverse chronological list of public talks I have given.
 
 
+## Nil and void
+
+<time>2026-05-11</time> @ <a href="https://european-lisp-symposium.org/2026/">European Lisp Symposium</a> (Lightning talk)
+
+More expressive and capable data literal syntax.
+
+*Upcoming, not yet given...*
+
+
 ## Reading inside out
 
 <time>2024-05-06</time> @ <a href="https://european-lisp-symposium.org/2024/">European Lisp Symposium</a> (Lightning talk)
