@@ -17,8 +17,9 @@ related to the following topics:
 
 ## Favourites
 
-- [**Library**](https://www.zotero.org/groups/6365078/library_of_axvr/library): Recommended reading and watching.
-- [**Ascribe**](/projects/ascribe): A simpler alternative to EditorConfig.
+- [Library](https://www.zotero.org/groups/6365078/library_of_axvr/library): Recommended reading and watching.
+- [On Lisp](/blog/on-lisp): A review of Paul Graham's 1993 book.
+- [Ascribe](/projects/ascribe): A simpler alternative to EditorConfig.
 
 ## Find me @
 
