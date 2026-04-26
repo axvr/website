@@ -5,11 +5,10 @@ subtitle: "A review of Paul Graham's 1993 book."
 published: 2026-04-26
 description: |
   A while back I committed some time to studying Paul Graham's 1993 book On
-  Lisp.  On Lisp is frequently recommended within Lisp circles as being the
-  bible for learning macros, which has contributed to the design of several
-  programming languages.  Having read the book I can say that this is indeed
-  true, however many reviews and references miss the central thesis of the
-  book.
+  Lisp.  On Lisp is frequently recommended within Lisp circles as the bible for
+  learning macros, which has contributed to the design of several programming
+  languages.  Having read the book, I can say that this is indeed true;
+  however, many reviews and references miss the central thesis of the book.
 keywords: "lisp, design, language, paul graham, book, review, programming, macros, functions, closures, advanced"
 og.type: "article"
 export: true
@@ -17,9 +16,9 @@ export: true
 
 A while back I committed some time to studying [Paul Graham][]'s 1993 book [_On
 Lisp: Advanced Techniques for Common Lisp_][on lisp].  On Lisp is frequently
-recommended within Lisp circles as being the bible for learning macros, which
+recommended within Lisp circles as the bible for learning macros, which
 influenced the design of several programming languages (including [Clojure][]).
-Having read the book I can say that this is indeed true, however many reviews
+Having read the book, I can say that this is indeed true; however, many reviews
 and references to it miss the central thesis of the book.
 
 The underlying theme, and explicit subject of the introductory chapter, is
@@ -54,15 +53,15 @@ a sly reference to it:
 >
 > &mdash; Paul Graham, *On Lisp* &sect; Preface
 
-Despite my reservations in calling it "bottom-up programming", this technique
-of pulling the language up to more effectively match the problem space is
-absolutely crucial to good software design.  Consider how each function you
-define adds a new specialised term to the language.  How the ways we organise
-our code, the names we choose and libraries we use shape our languages.  This
-*is* language design.  We need to care about and put real thought into how we
-are extending the language in which we express our solutions.  If we don't, it
-is all too easy to unintentionally make life more difficult for ourselves
-through ever more rapidly increasing complexity.
+Despite my reservations about calling it "bottom-up programming", this
+technique of pulling the language up to more effectively match the problem
+space is absolutely crucial to good software design.  Consider how each
+function you define adds a new specialised term to the language.  How the ways
+we organise our code, the names we choose and libraries we use shape our
+languages.  This *is* language design.  We need to care about and put real
+thought into how we are extending the language in which we express our
+solutions.  If we don't, it is all too easy to unintentionally make life more
+difficult for ourselves through ever more rapidly increasing complexity.
 
 In a talk at OOPSLA '98, [Guy Steele, Jr.][] echoes Graham's views on language
 design[^langdes]:
@@ -81,25 +80,24 @@ design[^langdes]:
 >
 > &mdash; Guy L. Steele, Jr., [*Growing a Language*](https://www.youtube.com/watch?v=lw6TaiXzHAE), 1998
 
-Throughout On Lisp, Graham tries to instil this into the reader by explaining
-and demonstrating the implementation of several advanced programming concepts
-atop of Common Lisp, with each successive chapter building more advanced
-features upon the creations of prior ones, creating an increasingly abstract
-language.  This approach reinforces the lessons of previous chapters while
-showing how such features can be used, and essentially gives you two books in
-one.
+Throughout On Lisp, Graham tries to instil this in the reader by explaining and
+demonstrating the implementation of several advanced programming concepts atop
+Common Lisp, with each successive chapter building more advanced features upon
+the creations of prior ones, creating an increasingly abstract language.  This
+approach reinforces the lessons of previous chapters while showing how such
+features can be used, and essentially gives you two books in one.
 
 Some of the advanced programming techniques and concepts the book covers are:
 
 - functional programming with first-class functions,
 - using function closures to encode data (a weird but sometimes useful
   technique for some performance sensitive problems),
-- everything you would ever need to know about Lisp-style macros; how to write
-  them; when to use them; avoiding pitfalls,
+- everything you would ever need to know about Lisp-style macros: how to write
+  them, when to use them, and how to avoid pitfalls,
 - "[anaphoric macros][]" (which first appeared in this book),
 - implementing efficient compile time data destructuring with macros,
 - compile time compilation of database queries,
-- faking of continuations and [non-deterministic code][non-determinism] with
+- faking continuations and [non-deterministic code][non-determinism] with
   macros (this has come in handy so many times for me in real-world
   situations),
 - simulating concurrency/multiple-processes with macros,
@@ -115,17 +113,17 @@ shows how such a small amount of code can go a long way through careful,
 intentional design.  However, at times this conciseness can be a double-edged
 sword.  I found the explanations of continuations to be a little too brief,
 requiring additional time to digest, research and experiment to properly
-understand it.
+understand them.
 
 On Lisp is one of those rare books that expands your mind to new ways of
 thinking about solving problems and expressing solutions.  I can say with
 confidence that reading it has made me a *much* better programmer, providing me
 with mountains of invaluable knowledge on language design and programming
-concepts many of which I have actually used to great effect in several
+concepts, many of which I have actually used to great effect in several
 real-world production systems.
 
-I went from having only created a couple of small macros to total confidence as
-can be seen in the advanced chaining of macro-defining macros of my [Clojure
+I went from having only created a couple of small macros to total confidence,
+as can be seen in the advanced chaining of macro-defining macros of my [Clojure
 logging library][Epilogue].  For a while I played around with non-deterministic
 algorithms, replicating the book's "choose" operator in Clojure but instead
 [exploiting exceptions and macros][clj-amb] to fake continuations and later
@@ -140,14 +138,14 @@ I honestly cannot recommend On Lisp enough, but a word of warning: it is not an
 easy book.  On Lisp will consume a significant chunk of your time if you want
 to truly understand all that it has to offer.  If you do not already know
 Common Lisp prior to reading it or won't ever use it, don't let that put you
-off as the lessons are transferable.  Finally, note that there are also a few
-known (minor) [mistakes][errata] that Graham has shared corrections for online.
+off, as the lessons are transferable.  Finally, note that there are also a few
+known [mistakes][errata] that Graham has shared corrections for online.
 
 
 ## Reconstruction
 
-Sadly the physical book is long out of print and original copies are rare.
-However if you want a physical copy, you can print one yourself through
+Sadly, the physical book is long out of print and original copies are rare.
+However, if you want a physical copy, you can print one yourself through
 [Lulu](https://www.lulu.com).  You will need to select the "perfect paperback"
 book type on Lulu and upload these files: [content](on_lisp_content.pdf),
 [cover](on_lisp_cover.pdf)[^cover].
@@ -159,8 +157,8 @@ people:
 - 2002: Paul Graham regained copyright and published a [free download](http://paulgraham.com/onlisptext.html)
   of _On Lisp_ (with missing diagrams).
 - 2010: Ramakrishnan shared scans of the [missing diagrams](https://web.archive.org/web/20100302002206/http://www.zerobeat.in/wiki/doku.php?id=onlisp_missing_figures).
-- 2015: David Drysdale created SVG versions of the diagrams from the scans constructing
-  a [complete PDF](https://www.lurklurk.org/onlisp/onlisp.html).
+- 2015: David Drysdale created SVG versions of the diagrams from the scans,
+  constructing a [complete PDF](https://www.lurklurk.org/onlisp/onlisp.html).
 - 2021: I (Alex Vear) created a high-resolution, near identical [reproduction of the original cover](on_lisp_cover.pdf)
   compatible with Lulu based on Drysdale's cover recreation.
 
