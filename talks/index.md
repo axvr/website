@@ -12,7 +12,7 @@ Reverse chronological list of public talks I have given.
 
 More expressive and capable data literal syntax.
 
-*Upcoming, not yet given...*
+[Slides](void.pdf) / Video pending upload...
 
 
 ## Reading inside out
