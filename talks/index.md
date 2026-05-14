@@ -1,6 +1,6 @@
 ---
 title: "Talks"
-subtitle: "Sometimes I <i>speak</i> about things that interest me."
+subtitle: "Sometimes I speak about things that interest me."
 description: "List of public talks given by Alex Vear."
 ---
 

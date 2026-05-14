@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-subtitle: "Sometimes I <i>write</i> about things that interest me."
+subtitle: "Sometimes I write about things that interest me."
 description: "Alex Vear's blog.  Here you will mostly find stuff about computers and software engineering."
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-subtitle: "Sometimes I <i>create</i> things that interest me."
+subtitle: "Sometimes I create things that interest me."
 description: "List of Alex Vear's projects; mostly software."
 ---
 
