@@ -1,5 +1,6 @@
 ---
 title: "Talks"
+subtitle: "Sometimes I <i>speak</i> about things that interest me."
 description: "List of public talks given by Alex Vear."
 ---
 
@@ -10,9 +11,9 @@ Reverse chronological list of public talks I have given.
 
 <time>2026-05-11</time> @ <a href="https://european-lisp-symposium.org/2026/">European Lisp Symposium</a> (Lightning talk)
 
-More expressive and capable data literal syntax.
+Expressing absence in data literal syntax and beyond.
 
-[Slides](void.pdf) / [Video](https://youtu.be/LtPfu0zjF0o?si=7nunL7uhAbosXkrb&t=299) \[00:05:25\] (Awaiting official video upload.)
+[Slides](void.pdf) / [Video](https://youtu.be/LtPfu0zjF0o?si=7nunL7uhAbosXkrb&t=300) \[00:05:25\] (Awaiting official video upload.)
 
 
 ## Reading inside out
