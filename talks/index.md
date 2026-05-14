@@ -15,6 +15,9 @@ Expressing absence in data literal syntax and beyond.
 
 [Slides](void.pdf) / [Video](https://youtu.be/LtPfu0zjF0o?si=7nunL7uhAbosXkrb&t=300) \[00:05:25\] (Awaiting official video upload.)
 
+(The answer I gave to the question at the end of the recording was "one nesting
+level, but you can keep using `supervoidable`s.")
+
 
 ## Reading inside out
 
