@@ -16,14 +16,17 @@ define source "${base}/source"
 $> { git clone --no-tags . $source }
 $> { git -C $source switch --detach $commit }
 
-define deploy "${base}/deploy"
+define target "${base}/target"
 $> { git clone --no-tags --depth 1 --branch pages \
-         "ssh://git@codeberg.org/axvr/website.git" $deploy }
+         "ssh://git@codeberg.org/axvr/website.git" $target }
 
+$> { echo "Source: ${source}" }
+$> { echo "Target: ${target}" }
 $> { cd $source do/build }
-$> { rsync -avh --checksum --prune-empty-dirs --recursive --itemize-changes \
-           --delete-during --exclude .git ${source}/.dist/ $deploy }
+$> { git -C $target rm -r --quiet . }
+$> { cp -Rpn ${source}/.dist/ $target }
+$> { git -C $target add . }
+$> { git -C $target status --short }
 
-$> { git -C $deploy add . }
-$> { git -C $deploy commit -S -m "Update website from ${commit}" }
-$> { git -C $deploy push }
+$> { git -C $target commit --gpg-sign -m "Update website from ${commit}" }
+$> { git -C $target push }
